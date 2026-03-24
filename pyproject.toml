@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "aiai"
+version = "0.1.0"
+description = "Object fingerprinting framework for art authentication — JVT"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "PyWavelets",       # DWT, db6 wavelet analysis
+    "dtcwt",            # Dual-tree complex wavelet transform
+    "kymatio",          # Wavelet scattering transform (Mallat)
+    "scikit-image",     # LBP, skeletonisation, Canny edge detection
+    "giotto-tda",       # Persistent homology (TDA)
+    "Pillow",           # Image loading
+    "matplotlib",
+    "ipykernel",
+    "jupyter",
+    "notebook",
+    "shap",             # Explainability / feature importance
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-cov"]
