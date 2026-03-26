@@ -1,0 +1,5 @@
+requests
+SPARQLWrapper
+Pillow
+pandas
+tqdm
