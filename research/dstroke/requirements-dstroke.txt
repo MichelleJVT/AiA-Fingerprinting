@@ -1,0 +1,13 @@
+# DStroke research prototype dependencies
+# Install into the shared .venv:
+#   source C:/Users/MichelleJacobs/Repos/AIAi/.venv/Scripts/activate && pip install -r requirements-dstroke.txt
+#
+# torch/torchvision: install the CUDA build from https://pytorch.org/get-started/locally/
+#   e.g. pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1
+torchvision>=0.16
+huggingface_hub>=0.23
+transformers>=4.40
+opencv-python-headless>=4.9
+# sam2 is installed separately from the GitHub source (see 02c notebook):
+#   pip install git+https://github.com/facebookresearch/sam2.git

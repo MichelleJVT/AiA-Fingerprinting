@@ -1,0 +1,15 @@
+function,mean_s,std_s,min_s,max_s,total_s
+surface_organization,0.022,0.005,0.014,0.032,0.9
+pressure_variation,0.026,0.005,0.016,0.040,1.1
+color_analysis,0.063,0.014,0.038,0.102,2.6
+sequence_of_development,0.083,0.017,0.054,0.117,3.4
+extract_brushstrokes,5.589,1.086,3.562,8.265,229.1
+light_dark_spatial,0.009,0.002,0.006,0.015,0.4
+contrast_analysis,0.005,0.001,0.003,0.009,0.2
+texture_rendering,0.084,0.017,0.062,0.134,3.4
+contour_interior_relationship,0.043,0.013,0.026,0.087,1.8
+major_minor_analysis,0.079,0.015,0.052,0.125,3.2
+detail_density_analysis,0.009,0.003,0.005,0.019,0.4
+rhythm_analysis,0.042,0.070,0.019,0.480,1.7
+hatching_analysis,8.521,1.627,6.135,12.000,349.4
+line_spontaneity_score,0.047,0.014,0.026,0.101,1.9
