@@ -138,3 +138,8 @@ dmypy.json
 cython_debug/
 CLAUDE.md
 data/
+
+
+*.tif
+*.pdf
+*.csv
